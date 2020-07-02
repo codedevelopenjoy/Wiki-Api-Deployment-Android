@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/zoomin"
+        android:icon="@drawable/zoom_in"
+        android:title="Zoom IN"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/zoomout"
+        android:icon="@drawable/zoom_out"
+        android:title="Zoom OUT"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/save"
+        android:title="Save Topic"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/viewsaved"
+        android:title="View Saved"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/fontsettings"
+        android:title="Settings"
+        app:showAsAction="never"/>
+
+</menu>
